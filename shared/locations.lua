@@ -310,9 +310,9 @@ Config.Locations = {
             enabled = true,
         },
         categories = {
-            mods = true,
-            turbo = true,
-            repair = true,
+            mods = false,
+            turbo = false,
+            repair = false,
             respray = true,
             liveries = true,
             wheels = true,
@@ -329,7 +329,10 @@ Config.Locations = {
             icon = "material-icons",
             materialIcon = 'construction',
         },
-        restrictions = { deniedClasses = { 18 } },
+        restrictions = {
+            job = { 'ambulance' },
+            allowedClasses = { 18 },
+        },
         zones = {
             { coords = vector3(144.96, -3030.46, 7.06), length = 6.0, width = 4.0, heading = 180.0, minZ = 6.0, maxZ = 10.0 },
             { coords = vector3(135.92, -3030.5, 7.04), length = 6.0, width = 4.0, heading = 180.0, minZ = 6.0, maxZ = 10.0 },
