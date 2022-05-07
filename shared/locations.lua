@@ -330,7 +330,7 @@ Config.Locations = {
             materialIcon = 'construction',
         },
         restrictions = {
-            job = { 'ambulance' },
+            job = { 'tuner' },
             allowedClasses = { 18 },
         },
         zones = {
